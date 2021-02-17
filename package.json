@@ -1,0 +1,19 @@
+{
+  "name": "@gabao-farias/process-manager-functions",
+  "version": "1.0.0",
+  "description": "Functions to help the organization of Process-manager project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabao-Farias/process-manager-functions.git"
+  },
+  "author": "Gabriel Taborda Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabao-Farias/process-manager-functions/issues"
+  },
+  "homepage": "https://github.com/Gabao-Farias/process-manager-functions#readme"
+}
