@@ -1,5 +1,3 @@
-import { PageTable } from "../utils";
-
 const GetNpfRefs = (processAmmountPagesUsed : number, tpso : PageTable[]) => {
   var npfRefs = [];
   var i = 0;

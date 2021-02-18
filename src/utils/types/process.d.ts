@@ -1,4 +1,4 @@
-export type Process = {
+declare type Process = {
     pid: string;
     processSize: number;
     npfRefs: string[];

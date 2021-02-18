@@ -1,5 +1,3 @@
-import { Process } from "../utils";
-
 const DestroyProcess = (PID : string, processes : Process[]) : Process[] => {
   var i = 0;
   const newProcessesArray : Process[] = [];
@@ -15,7 +13,3 @@ const DestroyProcess = (PID : string, processes : Process[]) : Process[] => {
 }
 
 export default DestroyProcess;
-
-// matemátics
-// Limpar o used;
-// E eliminar do array o PID do elemento a ser elimnado pela eliminação dos eliminadores
