@@ -1,3 +1,5 @@
+import { PageTable, Process } from "src/utils";
+
 const AddNewProcessPageTableConfig = (tablePageConfig : PageTable[], newProcess: Process) : PageTable[] =>  {
   const newPageTableConfig : PageTable[] = [];
   const processToBeAdded : Process = newProcess;

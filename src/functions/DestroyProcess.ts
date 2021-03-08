@@ -1,3 +1,5 @@
+import { Process } from "src/utils";
+
 const DestroyProcess = (PID : string, processes : Process[]) : Process[] => {
   var i = 0;
   const newProcessesArray : Process[] = [];

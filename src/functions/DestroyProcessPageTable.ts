@@ -1,3 +1,4 @@
+import { PageTable, Process } from "src/utils";
 import GetProcessToBeDestroyed from "./GetProcessToBeDestroyed";
 
 const DestroyProcessPageTable = (PID : string, processes : Process[], tablePageConfig : PageTable[]) : PageTable[] => {

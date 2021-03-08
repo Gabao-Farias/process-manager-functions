@@ -1,3 +1,5 @@
+import { Process } from "src/utils";
+
 const StartProcessesArray = () : Process[] => {
   return([]);
 }

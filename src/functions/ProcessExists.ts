@@ -1,3 +1,5 @@
+import { Process } from "src/utils";
+
 const ProcessExists = (PID: string, processes: Process[]) : boolean => {
   var i = 0;
   while(i < processes.length){

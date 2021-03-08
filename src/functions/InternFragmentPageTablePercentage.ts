@@ -1,3 +1,4 @@
+import { Process } from "src/utils";
 import InternFragmentPageTable from "./InternFragmentPageTable";
 
 const InternFragmentPageTablePercentage = (processes : Process[], pageSize : number) => {
