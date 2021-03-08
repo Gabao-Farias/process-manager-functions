@@ -8,6 +8,7 @@
   "scripts": {
     "prepublish": "tsc",
     "build": "tsc && rollup -c",
+    "publish-package": "yarn && yarn build && yarn publish --access public",
     "dev": "rollup -c -w"
   },
   "author": "Gabriel Taborda Farias",
