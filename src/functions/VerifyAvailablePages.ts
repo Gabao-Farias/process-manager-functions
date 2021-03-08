@@ -1,4 +1,4 @@
-import { PageTable } from "src/utils";
+import { PageTable } from "../utils";
 
 const VerifyAvailablePages = (pageTable : PageTable[]) : Number => {
   var availablePages = 0;

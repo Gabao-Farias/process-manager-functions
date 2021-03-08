@@ -1,4 +1,4 @@
-import { Process } from "src/utils";
+import { Process } from "../utils";
 
 const GetProcessToBeDestroyed = (PID : string, processes : Process[]) : Process => {
   var erroneusProcess = {

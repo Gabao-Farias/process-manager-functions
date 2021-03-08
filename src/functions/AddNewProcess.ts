@@ -1,4 +1,4 @@
-import { PageTable, Process } from "src/utils";
+import { PageTable, Process } from "../utils";
 import GetNpfRefs from "./GetNpfRefs";
 import PIDGenarator from "./PIDGenerator";
 import VerifyAmmountPageProcess from "./VerifyAmmountPageProcess";

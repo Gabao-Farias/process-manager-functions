@@ -1,4 +1,4 @@
-import { PageTable } from "src/utils";
+import { PageTable } from "../utils";
 import VerifyAvailablePages from "./VerifyAvailablePages";
 
 const VerifyAvailableMemoryPercentage = (pageTable : PageTable[]) => {

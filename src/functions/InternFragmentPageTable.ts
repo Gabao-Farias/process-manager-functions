@@ -1,4 +1,4 @@
-import { Process } from "src/utils";
+import { Process } from "../utils";
 import InternFragment from "./InternFragment";
 
 const InternFragmentPageTable = (processes : Process[], pageSize : number) => {
